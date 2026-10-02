@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="VeoCraft AI is a simple, free interface for shaping text ideas into video concepts.">
+  <title>VeoCraft AI — Create with imagination</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="VeoCraft AI home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 3.5 36.5 13v14L20 36.5 3.5 27V13L20 3.5Z"/><path d="m16 13 11 7-11 7V13Z"/></svg></span>
+        <span>VeoCraft <b>AI</b></span>
+      </a>
+      <button class="menu-toggle icon-button" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#creator">AI Video</a>
+        <a class="nav-link" href="#my-videos">My Videos</a>
+        <a class="nav-link" href="#about">About</a>
+      </nav>
+      <div class="nav-actions">
+        <span class="free-badge"><span class="status-dot"></span> Free to use</span>
+        <button class="theme-toggle icon-button" id="themeToggle" type="button" aria-label="Switch to light mode" title="Toggle light and dark mode">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13A8.5 8.5 0 0 1 11 3.1 8.5 8.5 0 1 0 20.9 13Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-spark">✦</span> YOUR IDEAS, IN MOTION</div>
+        <h1>Create amazing<br><span class="gradient-text">videos with AI.</span></h1>
+        <p class="hero-subtitle">Turn your ideas into videos with simple text prompts. Shape a scene, choose a style, and bring your next concept to life.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#creator">Start creating <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#features"><span class="play-small" aria-hidden="true">▶</span> Explore features</a>
+        </div>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>Free interface · No account needed · Demo mode included</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract video creator preview">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-glow"></div>
+        <div class="preview-card">
+          <div class="preview-top"><span class="preview-dot"></span><span class="preview-dot"></span><span class="preview-dot"></span><span class="preview-label">SCENE PREVIEW</span><span class="preview-time">00:05</span></div>
+          <div class="preview-scene"><div class="scene-sun"></div><div class="scene-horizon"></div><div class="scene-mountain mountain-back"></div><div class="scene-mountain mountain-front"></div><div class="scene-scan"></div><div class="scene-caption">A NEW WORLD, FRAME BY FRAME</div><div class="scene-play" aria-hidden="true">▶</div></div>
+          <div class="preview-bottom"><span><i class="tiny-bars"></i> CONCEPT PREVIEW</span><span>16:9&nbsp; · &nbsp;HD</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span>✦</span> Imagination, rendered</div>
+        <div class="floating-chip chip-bottom"><span class="chip-check">✓</span> Your next idea starts here</div>
+        <div class="art-index">01 <span>/ 04</span></div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="trust-strip" aria-label="Project highlights"><div><span class="trust-symbol">✳</span><span>MADE FOR CREATORS</span></div><div><span class="trust-symbol">◌</span><span>NO INSTALLATION</span></div><div><span class="trust-symbol">↗</span><span>BUILT FOR THE WEB</span></div><div><span class="trust-symbol">◇</span><span>FREE TO USE</span></div></section>
+
+    <section class="section-shell features-section" id="features">
+      <div class="section-heading"><div><div class="eyebrow">IDEAS INTO MOTION</div><h2>Everything you need<br>to <span class="gradient-text">start creating.</span></h2></div><p>A simple creative workspace to shape your next video concept. No complicated setup, no paywall—just your imagination.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon icon-purple"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 18.5v-13Z"/><path d="m10 8 5 4-5 4V8Z"/></svg></div><h3>Text to video</h3><p>Describe a scene in your own words and start shaping a visual concept.</p><span class="feature-index">01</span></article>
+        <article class="feature-card"><div class="feature-icon icon-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 14.4 9.6 21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3Z"/></svg></div><h3>Multiple styles</h3><p>Explore cinematic, realistic, anime, 3D, cartoon, and documentary looks.</p><span class="feature-index">02</span></article>
+        <article class="feature-card"><div class="feature-icon icon-pink"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div><h3>Custom duration</h3><p>Choose a short format that fits your idea, from 5 to 15 seconds.</p><span class="feature-index">03</span></article>
+        <article class="feature-card"><div class="feature-icon icon-green"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11Z"/><path d="M7 16h10M8 8h8"/></svg></div><h3>HD-ready settings</h3><p>Set your aspect ratio and choose Standard or HD output preferences.</p><span class="feature-index">04</span></article>
+        <article class="feature-card"><div class="feature-icon icon-orange"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10 18.5h4"/></svg></div><h3>Mobile friendly</h3><p>Create and review your ideas on a phone, tablet, or desktop browser.</p><span class="feature-index">05</span></article>
+        <article class="feature-card"><div class="feature-icon icon-cyan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m9-9H3"/><circle cx="12" cy="12" r="9"/></svg></div><h3>Free to use</h3><p>No paid tiers or fake pricing. The frontend is free and open to publish.</p><span class="feature-index">06</span></article>
+      </div>
+    </section>
+
+    <section class="creator-section" id="creator">
+      <div class="section-shell">
+        <div class="creator-heading"><div><div class="eyebrow">THE CREATIVE STUDIO</div><h2>Make something <span class="gradient-text">wonderful.</span></h2><p>Write a prompt, tune your settings, and preview the result.</p></div><div class="mode-pill"><span class="status-dot"></span><span id="modeLabel">Demo Mode</span></div></div>
+        <div class="studio-layout">
+          <div class="studio-panel">
+            <div class="panel-title"><div><span class="step-number">01</span><div><h3>Your prompt</h3><p>Describe the video you want to create.</p></div></div><button class="text-button" id="clearPrompt" type="button">Clear prompt <span aria-hidden="true">×</span></button></div>
+            <label class="sr-only" for="promptInput">Describe the video you want to create</label>
+            <textarea id="promptInput" maxlength="600" placeholder="Describe the video you want to create..." spellcheck="true"></textarea>
+            <div class="prompt-meta"><span id="promptHint">Be descriptive: mention subject, setting, camera, and mood.</span><span><b id="charCount">0</b> / 600</span></div>
+            <div class="prompt-tools"><button class="small-button" id="randomPrompt" type="button"><span aria-hidden="true">⤨</span> Random prompt</button><div class="history-wrap"><button class="small-button" id="historyToggle" type="button" aria-expanded="false" aria-controls="historyList"><span aria-hidden="true">◷</span> Prompt history</button><div class="history-popover" id="historyList" hidden></div></div><button class="small-button" id="copyPrompt" type="button"><span aria-hidden="true">▢</span> Copy prompt</button></div>
+            <div class="examples-wrap"><span class="examples-label">TRY AN EXAMPLE</span><div class="example-list"><button class="example-chip" type="button">A cinematic sunset over a futuristic city</button><button class="example-chip" type="button">A funny grandma dancing in a supermarket</button><button class="example-chip" type="button">A beautiful African landscape at sunset</button><button class="example-chip" type="button">A robot walking through Tokyo at night</button></div></div>
+            <div class="divider"></div>
+            <div class="settings-heading"><span class="step-number">02</span><div><h3>Video settings</h3><p>Adjust the shape and feel of your video.</p></div></div>
+            <div class="settings-grid">
+              <div class="setting-group"><label for="aspectRatio">Aspect ratio</label><select id="aspectRatio"><option value="16:9">16:9 · Landscape</option><option value="9:16">9:16 · Portrait</option><option value="1:1">1:1 · Square</option></select></div>
+              <div class="setting-group"><label for="duration">Duration</label><select id="duration"><option value="5">5 seconds</option><option value="10">10 seconds</option><option value="15">15 seconds</option></select></div>
+              <div class="setting-group"><label for="style">Style</label><select id="style"><option value="Cinematic">Cinematic</option><option value="Realistic">Realistic</option><option value="Anime">Anime</option><option value="3D">3D</option><option value="Cartoon">Cartoon</option><option value="Documentary">Documentary</option></select></div>
+              <div class="setting-group"><label for="quality">Quality</label><select id="quality"><option value="Standard">Standard</option><option value="HD">HD</option></select></div>
+            </div>
+            <div class="generate-row"><button class="button button-primary generate-button" id="generateButton" type="button"><span class="button-spark">✦</span> Generate video <span class="button-arrow" aria-hidden="true">↗</span></button><span class="generate-footnote"><span class="lock-icon" aria-hidden="true">◇</span> Your prompts stay in this browser.</span></div>
+            <div class="loading-panel" id="loadingPanel" aria-live="polite" hidden><div class="loading-orb"><span></span><span></span><span></span></div><div class="loading-copy"><strong id="loadingTitle">Creating your video...</strong><span id="loadingSubtitle">AI is processing your prompt...</span><div class="progress-track"><span id="progressBar"></span></div><span id="progressText">Preparing your concept · 0%</span></div></div>
+          </div>
+          <aside class="result-panel" aria-label="Video result">
+            <div class="result-header"><div><span class="step-number">03</span><div><h3>Your preview</h3><p>See what your prompt becomes.</p></div></div><span class="result-status" id="resultStatus">READY</span></div>
+            <div class="result-empty" id="resultEmpty"><div class="empty-visual"><div class="empty-ring"></div><div class="empty-play">▶</div><div class="empty-star star-a">✦</div><div class="empty-star star-b">✧</div></div><h4>Your next scene starts here</h4><p>Your video preview will appear here after you generate.</p><span class="empty-footnote"><span class="status-dot"></span> Ready for your prompt</span></div>
+            <div class="result-video-wrap" id="resultVideoWrap" hidden><div class="result-video-frame"><video id="resultVideo" controls playsinline preload="metadata" aria-label="Video preview"></video><span class="demo-watermark" id="demoWatermark" hidden>DEMO SAMPLE · NOT AI-GENERATED</span></div><div class="result-details"><span class="result-mode-tag" id="resultModeTag">DEMO SAMPLE</span><p id="resultPromptText"></p><div class="result-settings" id="resultSettings"></div></div><div class="result-actions"><button class="button button-primary button-compact" id="downloadVideo" type="button">Download video <span aria-hidden="true">↓</span></button><button class="button button-outline button-compact" id="generateAgain" type="button">Generate again</button></div></div>
+            <div class="demo-notice" id="demoNotice"><span class="demo-notice-icon">i</span><p><strong>Demo Mode is active.</strong> The preview uses a sample clip—not a video generated from your prompt. Connect a secure backend to generate real AI videos.</p></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell library-section" id="my-videos">
+      <div class="library-heading"><div><div class="eyebrow">YOUR CREATIVE LIBRARY</div><h2>My <span class="gradient-text">videos.</span></h2><p>Your saved previews live in this browser only.</p></div><span class="library-count" id="libraryCount">0 SAVED</span></div>
+      <div class="video-library" id="videoLibrary"><div class="library-empty" id="libraryEmpty"><div class="library-empty-icon">▧</div><div><h3>No videos saved yet</h3><p>Generate a preview and it will show up here automatically.</p></div><a href="#creator" class="text-link">Go to the studio <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="about-section" id="about"><div class="section-shell about-inner"><div class="about-mark"><span class="brand-mark large-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 3.5 36.5 13v14L20 36.5 3.5 27V13L20 3.5Z"/><path d="m16 13 11 7-11 7V13Z"/></svg></span><span>VeoCraft<br><b>AI</b></span></div><div class="about-copy"><div class="eyebrow">ABOUT VEOCRAFT AI</div><h2>Ideas deserve<br>a moving picture.</h2><p>VeoCraft AI is a simple video-creation interface designed to help turn text ideas into video concepts. This GitHub Pages version includes an honest Demo Mode. Real AI generation requires a separate backend service connected to a video-generation API.</p></div><div class="about-note"><span class="note-line"></span><p>A creative starting point, built for everyone.</p><span class="about-small">NO ACCOUNT · NO PAYWALL · JUST CREATE</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 3.5 36.5 13v14L20 36.5 3.5 27V13L20 3.5Z"/><path d="m16 13 11 7-11 7V13Z"/></svg></span><span>VeoCraft <b>AI</b></span></a><span>© 2026 VeoCraft AI</span><span>Built for creators.</span><a class="back-top" href="#home">Back to top ↑</a></div></footer>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
